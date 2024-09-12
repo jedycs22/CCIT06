@@ -66,7 +66,7 @@ section{
 
 
 .card:hover {
-    background-color: rgb(190, 44, 44);
+    background-color: rgb(230, 209, 209);
 }
 
 .card:hover .card-title,
@@ -84,5 +84,5 @@ section{
 }
 
 #services {
-    background-color: #e08484;
+    background-color: #a39696;
 }
