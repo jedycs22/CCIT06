@@ -1,0 +1,88 @@
+#banner{
+    height: 90vh;
+    background:linear-gradient(to right, hsla(0, 0%, 0%, 0.856), rgba(173, 17, 17, 0.315)), url('image.jpg');
+    background-size: cover;
+}
+
+
+.btn {
+    padding: 15px 30px;
+    transform: all 0.4s ease;
+    font-weight: 700;
+    border-radius: 1px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.btn-brand {
+    background-color: rgb(202, 201, 199);
+    border: 3px solid #fff;
+
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: rgb(202, 201, 199);
+    border-color: rgb(217, 212, 201);
+}
+section{
+    padding: 100px 0;
+}
+ 
+#about h2{
+    font-size: 55px;
+    font-weight: 900;
+    color: red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+#about .btn-brand:hover{
+    color: black !important;
+    border-color: black !important;
+}
+
+#about {
+    background-color: lightsteelblue;
+}
+
+.luh {
+    width: 40%;
+}
+
+
+#services .btn-brand:hover {
+    color: black !important ;
+    border-color: black !important;
+}
+
+.card {
+    transition: background-color 0.3s, color 0.3s;
+    border: 5px solid var(--border); /* Border style */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+
+
+.card:hover {
+    background-color: rgb(190, 44, 44);
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #cf1414;
+}
+
+#services h2 {
+    font-size: 55px;
+    font-weight: 900;
+    color:red;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+}
+
+#services {
+    background-color: #e08484;
+}
