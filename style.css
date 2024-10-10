@@ -2,6 +2,7 @@
     height: 90vh;
     background:linear-gradient(to right, hsla(0, 0%, 0%, 0.856), rgba(173, 17, 17, 0.315)), url('image.jpg');
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -72,17 +73,64 @@ section{
 .card:hover .card-title,
 .card:hover .card-text,
 .card:hover .btn {
-    color: #cf1414;
+    color: #0e0505;
 }
 
 #services h2 {
     font-size: 55px;
     font-weight: 900;
-    color:red;
+    color:rgb(72, 51, 51);
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000000;
 }
 
 #services {
     background-color: #a39696;
+}
+
+#cta {
+    height: 70vh;
+    background:linear-gradient(to right, hsla(0, 0%, 0%, 0.856), rgba(173, 17, 17, 0.315)), url('back.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.testimonials img{
+    width: 75px;
+}
+
+.testimonials{
+    border: 2px solid rgb(57, 149, 57);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#faq{
+    background: #fafafa;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(57, 149, 57) ;
+}
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color:  rgb(8, 47, 8);
+    
+}
+
+
+.btn-outline-light {
+    border-color: #FFF;
+    color: #FFF;
+    border-radius: 0;
 }
