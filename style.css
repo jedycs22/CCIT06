@@ -1,6 +1,6 @@
 #banner{
     height: 90vh;
-    background:linear-gradient(to right, hsla(0, 0%, 0%, 0.856), rgba(173, 17, 17, 0.315)), url('image.jpg');
+    background:linear-gradient(to right, hsla(0, 0%, 0%, 0.856), rgba(173, 17, 17, 0.315)), url('back.webp');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -33,7 +33,7 @@ section{
 #about h2{
     font-size: 55px;
     font-weight: 900;
-    color: red;
+    color: rgb(31, 29, 29);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;
 }
@@ -79,7 +79,7 @@ section{
 #services h2 {
     font-size: 55px;
     font-weight: 900;
-    color:rgb(72, 51, 51);
+    color:rgb(215, 213, 193);
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000000;
 }
@@ -133,4 +133,11 @@ footer {
     border-color: #FFF;
     color: #FFF;
     border-radius: 0;
+}
+
+#ban{
+    height: 70vh;
+    background:linear-gradient(to right, hsla(0, 0%, 0%, 0.856), rgba(173, 17, 17, 0.315)), url('back.webp');
+    background-size: cover;
+    background-attachment: fixed;
 }

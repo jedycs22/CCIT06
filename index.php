@@ -46,46 +46,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center text-light">
-                    <h1>RHEAN SABICO</h1>
-                    <p>Hi binibining rhean how are you? are you mad? hahhahahah joke.</p>
+                    <h1>MY FAVORITE ANIMALS</h1>
+                    <p>CAT, KOALA, DOG, CRICKET, MONKEY, EAGLE, SNAKE, AND TIGER</p>
                <a href=""class="btn btn-brand">Please Click</a>
                 </div>
             </div>
         </div>
       </div>
-      <!--ABOUT SECTION-->
-      <section id="about">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <img src="eyy-001 (3).webp" alt="">
 
-            </div>
-           <div class="col-lg-6">
-            <h2>KOALA</h2>
-            <h4>The koala (Phascolarctos cinereus)</h4>
-            <p> sometimes called the koala bear, is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae. Its closest living relatives are the wombats. The koala is found in coastal areas of the island's eastern and southern regions, inhabiting Queensland, New South Wales, Victoria, and South Australia. It is easily recognisable by its stout, tailless body and large head with round, fluffy ears and large, dark nose. The koala has a body length of 60–85 cm (24–33 in) and weighs 4–15 kg (8.8–33.1 lb). Fur colour ranges from silver grey to chocolate brown. Koalas from the northern populations are typically smaller and lighter in colour than their counterparts further south. These populations possibly are separate subspecies, but this is disputed.</p>
-            <a href="#about"class="btn btn-brand">Please Click Here!</a>
-
-           </div>
-          </div>
-        </div>
-      </section>
+     <?php
+     include 'about.php';
+     ?>
 
       <!-- SERVICES -->
-      <section id="services">
+  <section id="services">
         <div class="container">
           <div class="text-center">
         <h2>SERVICES</h2>
-        <p>It's me John Daven unsa man akong ibulig?</p>
+        <p>HELP ANIMALS</p>
       </div>
       <div class="row">
         <div class="col-lg-4 d-flex align-items-center justify-content-center">
           <div class="card text-center p-3" style="width: 22rem;">
             <img src="53775.png" class="card-img-top luh mx-auto" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">DOG</h5>
+              <p class="card-text">DOG DETAILS</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
@@ -95,8 +81,8 @@
           <div class="card text-center p-3" style="width: 22rem;">
             <img src="53775.png" class="card-img-top luh mx-auto" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">CRICKET</h5>
+              <p class="card-text">CRICKET DETAILS.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
@@ -106,8 +92,8 @@
           <div class="card text-center p-3" style="width: 22rem;">
             <img src="53775.png" class="card-img-top luh mx-auto" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">MONKEY</h5>
+              <p class="card-text">MONKEY DETAILS</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
@@ -121,104 +107,60 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center text-light">
-                    <h1>LEAFS </h1>
-                    <p>A leaf (pl.: leaves) is a principal appendage of the stem of a vascular plant, usually borne laterally aboveground and specialized for photosynthesis. Leaves are collectively called foliage, as in "autumn foliage", while the leaves, stem, flower, and fruit collectively form the shoot system.</p>
+                    <h1>EAGLE</h1>
+                    <p>EAGLE DETAILS</p>
                <a href=""class="btn btn-brand">Please Click</a>
                 </div>
             </div>
         </div>
       </div>
 
-      <!-- REVIEWS -->
-      <section id="reviews">
-        <div class="container">
-          <div class="text-center">
-            <h2>Reviews</h2>
-            <p>From books and movies to plumbers and hotels, reviewing a product or service can be a useful skill.</p>
-          </div>
-        <!--ITEMS-->
-        <div class="row row-cols-lg-3">
-          <div class="col">
-            <div class="testimonials">
-              <div class="d-flex">
-                <img src="eyy-001 (3).webp" alt="">
-                <div class="ms-3">
-                  <h3>AnimalName</h3>
-                  <a href="">@animal</a>
-                </div>
-              </div>
-              <p>The koala (Phascolarctos cinereus).</p>
-            </div>
-          </div>
+      <?php
+     include 'reviews.php';
+     ?>
 
-          <div class="col">
-            <div class="testimonials">
-              <div class="d-flex">
-                <img src="eyy-001 (3).webp" alt="">
-                <div class="ms-3">
-                  <h3>AnimalName</h3>
-                  <a href="">@animal</a>
-                </div>
-              </div>
-              <p>The koala (Phascolarctos cinereus).</p>
-            </div>
-          </div>
+      
+      <!--accordion-->
+      <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
 
-          <div class="col">
-            <div class="testimonials">
-              <div class="d-flex">
-                <img src="eyy-001 (3).webp" alt="">
-                <div class="ms-3">
-                  <h3>AnimalName</h3>
-                  <a href="">@animal</a>
-                </div>
-              </div>
-              <p>The koala (Phascolarctos cinereus).</p>
-            </div>
-          </div>
 
-          <div class="col">
-            <div class="testimonials">
-              <div class="d-flex">
-                <img src="eyy-001 (3).webp" alt="">
-                <div class="ms-3">
-                  <h3>AnimalName</h3>
-                  <a href="">@animal</a>
-                </div>
-              </div>
-              <p>The koala (Phascolarctos cinereus).</p>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="testimonials">
-              <div class="d-flex">
-                <img src="eyy-001 (3).webp" alt="">
-                <div class="ms-3">
-                  <h3>AnimalName</h3>
-                  <a href="">@animal</a>
-                </div>
-              </div>
-              <p>The koala (Phascolarctos cinereus).</p>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="testimonials">
-              <div class="d-flex">
-                <img src="eyy-001 (3).webp" alt="">
-                <div class="ms-3">
-                  <h3>AnimalName</h3>
-                  <a href="">@animal</a>
-                </div>
-              </div>
-              <p>The koala (Phascolarctos cinereus).</p>
-            </div>
-          </div>
-
-        </div>
-        </div>
-      </section>
       <!--FAQs-->
       <section id="faq">
         <div class="container">
@@ -269,6 +211,10 @@
           </div>
       </div>
   </footer>
+
+        </div>
+    </div>
+  </div>
 
     
 </body>
